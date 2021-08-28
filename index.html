@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="table_header">
+      <p class="table_title">日付</p>
+      <p class="table_title">食費</p>
+      <p class="table_title">水道・光熱費</p>
+      <p class="table_title">交通費・定期代</p>
+      <p class="table_title">その他</p>
+    </div>
+    <div class="table_content" id="tableContent">
+    </div>
+    <div class="sum_wrapper">
+      <button onclick="displaySum()">合計金額を表示</button>
+      <p id="sum"></p>
+    </div>
+  </div>
+</body>
+<script src="./script.js"></script>
+</html>

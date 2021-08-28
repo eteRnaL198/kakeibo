@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.table_header {
+  display: flex;
+  justify-content: space-around;
+}
+.table_title {
+
+}
+
+.table_content {
+
+}
+
+.tabel_row {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.table_input {
+  flex: 1;
+}
